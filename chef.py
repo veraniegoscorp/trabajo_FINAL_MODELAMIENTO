@@ -3,7 +3,7 @@ class Chef:
     def __init__(self, nombre: str):
         self.nombre = nombre
 
-    def preparar(self, pedido: 'Pedido') -> None:        
+    def preparar(self, pedido: 'Pedido'):        
         
         print(f"{self.nombre} está preparando el pedido...")
         
@@ -11,7 +11,7 @@ class Chef:
 
         print(f"{self.nombre} terminó: pedido LISTO")
 
-    def revisar_pedido(self, pedido: 'Pedido') -> str:
+    def revisar_pedido(self, pedido: 'Pedido'):
         
         return f"Chef {self.nombre} ve estado: {pedido.estado}"
 

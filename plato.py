@@ -4,7 +4,7 @@ class Plato:
         self.precio = precio
         self.descripcion = descripcion
 
-    def detalles(self) -> str:
+    def detalles(self):
         desc = f"{self.nombre} - $ {self.precio:}"
         if self.descripcion:
             desc += f"   {self.descripcion}"

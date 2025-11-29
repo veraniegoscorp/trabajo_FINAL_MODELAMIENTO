@@ -28,13 +28,13 @@ class Pedido:
         return "\n".join(lines)
 
 
-    def marcar_listo(self) -> None:
+    def marcar_listo(self):
         self.estado = "LISTO"
 
-    def marcar_entregado(self) -> None:
+    def marcar_entregado(self):
         self.estado = "ENTREGADO"
 
-    def marcar_pagado(self) -> None:
+    def marcar_pagado(self) :
         self.estado = "PAGADO"
 
 #el pedido es la parte central del sistema ya que esta contiene la mayor parte de la logica del mismo
